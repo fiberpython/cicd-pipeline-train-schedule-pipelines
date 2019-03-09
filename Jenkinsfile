@@ -1,6 +1,6 @@
 pipeline {
   agent any
-  stage {
+  stages {
     stage ('Build') {
       steps {
         echo 'Running Build automation like Van Halen'
